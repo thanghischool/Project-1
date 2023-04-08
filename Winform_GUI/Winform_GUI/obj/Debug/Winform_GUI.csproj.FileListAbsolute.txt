@@ -1,0 +1,11 @@
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\bin\Debug\Winform_GUI.exe.config
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\bin\Debug\Winform_GUI.exe
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\bin\Debug\Winform_GUI.pdb
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.csproj.AssemblyReference.cache
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.csproj.SuggestedBindingRedirects.cache
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.Form1.resources
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.Properties.Resources.resources
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.csproj.GenerateResource.cache
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.csproj.CoreCompileInputs.cache
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.exe
+D:\workspace\C# (winform)\Winform_GUI\Winform_GUI\obj\Debug\Winform_GUI.pdb
