@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace Web_mua_bán_sách
 {
-    public partial class Form1 : Form
+    public partial class Dang_nhap : Form
     {
-        public Form1()
+        public Dang_nhap()
         {
             InitializeComponent();
+        }
+
+        private void Dang_nhap_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
