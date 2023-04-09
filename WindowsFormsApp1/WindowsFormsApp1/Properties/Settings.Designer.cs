@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Winform_GUI.Properties
+namespace WindowsFormsApp1.Properties
 {
 
 
