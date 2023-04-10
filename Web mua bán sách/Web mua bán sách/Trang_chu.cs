@@ -21,5 +21,40 @@ namespace Web_mua_bán_sách
         {
 
         }
+
+        private void sáchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sáchToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void danhMụcSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void quảnLýThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
