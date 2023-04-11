@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Web_mua_bán_sách.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +55,12 @@
     <Compile Include="Dang_nhap.Designer.cs">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Danh_Muc_San_Pham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danh_Muc_San_Pham.Designer.cs">
+      <DependentUpon>Danh_Muc_San_Pham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Trang_chu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danh_Muc_San_Pham.resx">
+      <DependentUpon>Danh_Muc_San_Pham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
