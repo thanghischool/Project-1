@@ -1,0 +1,12 @@
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.exe.config
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.exe
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.pdb
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.AssemblyReference.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.SuggestedBindingRedirects.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Dang_nhap.resources
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Properties.Resources.resources
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Trang_chu.resources
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.GenerateResource.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CoreCompileInputs.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.exe
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.pdb
