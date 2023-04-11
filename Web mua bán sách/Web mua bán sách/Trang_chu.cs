@@ -24,7 +24,10 @@ namespace Web_mua_bán_sách
 
         private void sáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Sach_Tieu_Thuyet d = new Sach_Tieu_Thuyet();
+            this.Hide();
+            d.ShowDialog();
+            this.Show();    
         }
 
         private void sáchToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -56,5 +59,15 @@ namespace Web_mua_bán_sách
         {
 
         }
+
+        private void thoátChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát chuwong trình", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(result == DialogResult.Yes)
+            {
+                Close();
+            } 
+        }
+
     }
 }
