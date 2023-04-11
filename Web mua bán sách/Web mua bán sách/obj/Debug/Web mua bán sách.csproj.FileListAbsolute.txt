@@ -10,3 +10,4 @@ D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua 
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CoreCompileInputs.cache
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.exe
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.pdb
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Sach_Tieu_Thuyet.resources

@@ -52,11 +52,11 @@
     <Compile Include="Dang_nhap.Designer.cs">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Danh_Muc_San_Pham.cs">
+    <Compile Include="Sach_Tieu_Thuyet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Danh_Muc_San_Pham.Designer.cs">
-      <DependentUpon>Danh_Muc_San_Pham.cs</DependentUpon>
+    <Compile Include="Sach_Tieu_Thuyet.Designer.cs">
+      <DependentUpon>Sach_Tieu_Thuyet.cs</DependentUpon>
     </Compile>
     <Compile Include="Trang_chu.cs">
       <SubType>Form</SubType>
@@ -69,8 +69,8 @@
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Danh_Muc_San_Pham.resx">
-      <DependentUpon>Danh_Muc_San_Pham.cs</DependentUpon>
+    <EmbeddedResource Include="Sach_Tieu_Thuyet.resx">
+      <DependentUpon>Sach_Tieu_Thuyet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
