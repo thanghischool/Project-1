@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.exe.config
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.exe
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.pdb
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.AssemblyReference.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.SuggestedBindingRedirects.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Dang_nhap.resources
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Properties.Resources.resources
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Trang_chu.resources
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.GenerateResource.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CoreCompileInputs.cache
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.exe
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.pdb
+=======
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.exe.config
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.exe
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\Web mua bán sách.pdb
@@ -10,4 +24,8 @@ D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua 
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CoreCompileInputs.cache
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.exe
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.pdb
+>>>>>>> 3b2acd5cfc0f0fa6ecd49d5829b301189fc12ec6
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Danh_Mục_Sản_Phẩm.resources
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Sach_Tieu_Thuyet.resources
+>>>>>>> 5636a64b1586c6ab6589df193298685de8a813bc
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Sach_Tieu_Thuyet.resources
