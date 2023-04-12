@@ -56,6 +56,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.quảnLýThôngTinSảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýThôngTinKháchHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Sach_Vi_Thuong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -125,10 +127,13 @@
             // 
             // mns_Quang_Ly_San_Pham
             // 
+            this.mns_Quang_Ly_San_Pham.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.quảnLýThôngTinSảnPhẩmToolStripMenuItem,
+            this.quảnLýThôngTinKháchHàngToolStripMenuItem});
             this.mns_Quang_Ly_San_Pham.Image = ((System.Drawing.Image)(resources.GetObject("mns_Quang_Ly_San_Pham.Image")));
             this.mns_Quang_Ly_San_Pham.Name = "mns_Quang_Ly_San_Pham";
             this.mns_Quang_Ly_San_Pham.Size = new System.Drawing.Size(134, 20);
-            this.mns_Quang_Ly_San_Pham.Text = "Quản Lý Sản Phẩm";
+            this.mns_Quang_Ly_San_Pham.Text = "Quản Lý Thông Tin";
             this.mns_Quang_Ly_San_Pham.Click += new System.EventHandler(this.quảnLýThôngTinToolStripMenuItem_Click);
             // 
             // mns_Tai_KHoan
@@ -348,6 +353,20 @@
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label8.Click += new System.EventHandler(this.label1_Click);
             // 
+            // quảnLýThôngTinSảnPhẩmToolStripMenuItem
+            // 
+            this.quảnLýThôngTinSảnPhẩmToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("quảnLýThôngTinSảnPhẩmToolStripMenuItem.Image")));
+            this.quảnLýThôngTinSảnPhẩmToolStripMenuItem.Name = "quảnLýThôngTinSảnPhẩmToolStripMenuItem";
+            this.quảnLýThôngTinSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.quảnLýThôngTinSảnPhẩmToolStripMenuItem.Text = "Quản Lý Thông Tin Sản phẩm";
+            // 
+            // quảnLýThôngTinKháchHàngToolStripMenuItem
+            // 
+            this.quảnLýThôngTinKháchHàngToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("quảnLýThôngTinKháchHàngToolStripMenuItem.Image")));
+            this.quảnLýThôngTinKháchHàngToolStripMenuItem.Name = "quảnLýThôngTinKháchHàngToolStripMenuItem";
+            this.quảnLýThôngTinKháchHàngToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.quảnLýThôngTinKháchHàngToolStripMenuItem.Text = "Quản Lý Thông Tin Khách Hàng";
+            // 
             // Trang_chu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -420,6 +439,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ToolStripMenuItem thoátChươngTrìnhToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýThôngTinSảnPhẩmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýThôngTinKháchHàngToolStripMenuItem;
     }
 }
 

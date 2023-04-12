@@ -29,3 +29,6 @@ C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_b�
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Sach_Tieu_Thuyet.resources
 >>>>>>> 5636a64b1586c6ab6589df193298685de8a813bc
 C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Sach_Tieu_Thuyet.resources
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\MySql.Data.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Quan_Ly_Thong_Tin_San_Pham.resources
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CopyComplete
