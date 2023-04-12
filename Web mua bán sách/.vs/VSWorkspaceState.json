@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Web mua bán sách"
+    "\\Web mua bán sách",
+    "\\Web mua bán sách\\bin",
+    "\\Web mua bán sách\\bin\\Debug",
+    "\\Web mua bán sách\\obj",
+    "\\Web mua bán sách\\Properties"
   ],
   "SelectedNode": "\\Web mua bán sách\\Dang_nhap.cs",
   "PreviewInSolutionExplorer": false

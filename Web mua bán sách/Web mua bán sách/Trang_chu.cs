@@ -69,5 +69,12 @@ namespace Web_mua_bán_sách
             } 
         }
 
+        private void mns_Dang_Nhap_Click(object sender, EventArgs e)
+        {
+            Dang_nhap f = new Dang_nhap();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }
