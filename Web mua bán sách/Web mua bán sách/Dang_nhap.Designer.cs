@@ -32,6 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnloinho = new System.Windows.Forms.Button();
             this.btnquenmk1 = new System.Windows.Forms.Button();
             this.btndangnhap1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -43,7 +44,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnthoat = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btnloinho = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -98,6 +98,20 @@
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // btnloinho
+            // 
+            this.btnloinho.BackColor = System.Drawing.SystemColors.Control;
+            this.btnloinho.FlatAppearance.BorderSize = 0;
+            this.btnloinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnloinho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btnloinho.Location = new System.Drawing.Point(360, 0);
+            this.btnloinho.Name = "btnloinho";
+            this.btnloinho.Size = new System.Drawing.Size(72, 54);
+            this.btnloinho.TabIndex = 6;
+            this.btnloinho.Text = "X";
+            this.btnloinho.UseVisualStyleBackColor = false;
+            this.btnloinho.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // btnquenmk1
             // 
             this.btnquenmk1.BackColor = System.Drawing.SystemColors.Control;
@@ -110,7 +124,7 @@
             this.btnquenmk1.Name = "btnquenmk1";
             this.btnquenmk1.Size = new System.Drawing.Size(160, 39);
             this.btnquenmk1.TabIndex = 5;
-            this.btnquenmk1.Text = "Đăng kí";
+            this.btnquenmk1.Text = "sign Up ";
             this.btnquenmk1.UseVisualStyleBackColor = false;
             this.btnquenmk1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -128,7 +142,7 @@
             this.btndangnhap1.Name = "btndangnhap1";
             this.btndangnhap1.Size = new System.Drawing.Size(185, 49);
             this.btndangnhap1.TabIndex = 4;
-            this.btndangnhap1.Text = "Đăng nhập";
+            this.btndangnhap1.Text = "Login";
             this.btndangnhap1.UseVisualStyleBackColor = false;
             this.btndangnhap1.Click += new System.EventHandler(this.button1_Click);
             this.btndangnhap1.MouseEnter += new System.EventHandler(this.btndangnhap1_MouseEnter);
@@ -142,16 +156,16 @@
             this.panel4.Location = new System.Drawing.Point(0, 252);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(432, 82);
+            this.panel4.Size = new System.Drawing.Size(432, 68);
             this.panel4.TabIndex = 3;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(48, 15);
+            this.textBox2.Location = new System.Drawing.Point(49, 15);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(371, 24);
+            this.textBox2.Size = new System.Drawing.Size(379, 24);
             this.textBox2.TabIndex = 6;
             this.textBox2.UseSystemPasswordChar = true;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -178,14 +192,14 @@
             this.panel3.Location = new System.Drawing.Point(0, 161);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(432, 83);
+            this.panel3.Size = new System.Drawing.Size(432, 73);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(49, 21);
+            this.textBox1.Location = new System.Drawing.Point(49, 27);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(379, 24);
@@ -230,20 +244,6 @@
             this.btnthoat.UseVisualStyleBackColor = true;
             this.btnthoat.Click += new System.EventHandler(this.btnthoat_Click);
             // 
-            // btnloinho
-            // 
-            this.btnloinho.BackColor = System.Drawing.SystemColors.Control;
-            this.btnloinho.FlatAppearance.BorderSize = 0;
-            this.btnloinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnloinho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.btnloinho.Location = new System.Drawing.Point(360, 0);
-            this.btnloinho.Name = "btnloinho";
-            this.btnloinho.Size = new System.Drawing.Size(72, 54);
-            this.btnloinho.TabIndex = 6;
-            this.btnloinho.Text = "X";
-            this.btnloinho.UseVisualStyleBackColor = false;
-            this.btnloinho.Click += new System.EventHandler(this.button1_Click_2);
-            // 
             // Dang_nhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -255,6 +255,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Dang_nhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dang_nhap";
             this.Load += new System.EventHandler(this.Dang_nhap_Load);
             this.panel1.ResumeLayout(false);

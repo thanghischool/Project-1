@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>C:\Users\ASUS\Downloads\DotNet\DotNet\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Users\PC\Downloads\DotNet\DotNet\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dang_ki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dang_ki.Designer.cs">
+      <DependentUpon>Dang_ki.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dang_nhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dang_ki.resx">
+      <DependentUpon>Dang_ki.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </EmbeddedResource>
