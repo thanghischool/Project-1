@@ -17,6 +17,8 @@ namespace Web_mua_bán_sách
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Trang_chu());
+            
+
         }
     }
 }

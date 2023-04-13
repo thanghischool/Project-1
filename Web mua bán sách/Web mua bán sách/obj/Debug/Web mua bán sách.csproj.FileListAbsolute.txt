@@ -32,3 +32,7 @@ C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_b�
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\MySql.Data.dll
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Quan_Ly_Thong_Tin_San_Pham.resources
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CopyComplete
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Quan_Ly_Thong_Tin_San_Pham.resources
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\MySql.Data.dll
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CopyComplete
+C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Dang_ki.resources
