@@ -60,27 +60,27 @@ namespace Web_mua_bán_sách
                 pnlusername.Visible = true;
                 return;
             }
-            if (textBox2.Text == "Enter password")
+         if (textBox2.Text == "Enter password")
             {
                 pnlpassword.Visible = true;
                 return;
             }
-            if (textBox3.Text == " Enter confrim password")
+           if (textBox3.Text == " Enter confrim password")
             {
                 pnlconfirmpassword.Visible = true;
                 return;
             }
-          else
-          if (textBox1.Text == "Enter user name" && textBox2.Text == "Enter password" && textBox3.Text == " Enter confrim password")
+               if(textBox1.Text == "baotruong" && textBox2.Text == "gogo" && textBox3.Text == "gogo")
             {
-                pnlusername.Visible = true;
-                pnlpassword.Visible = true;
-                pnlconfirmpassword.Visible = true;
-              
+                
                 Dang_nhap d = new Dang_nhap();
                 this.Hide();
                 d.ShowDialog();
                 this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

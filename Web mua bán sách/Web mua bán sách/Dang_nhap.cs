@@ -104,7 +104,7 @@ namespace Web_mua_bán_sách
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-
+            return;
         }
 
         private void btnloithoat1_Click(object sender, EventArgs e)

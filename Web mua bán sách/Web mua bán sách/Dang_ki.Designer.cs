@@ -262,7 +262,7 @@
             this.btnloithoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnloithoat.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnloithoat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.btnloithoat.Location = new System.Drawing.Point(720, 0);
+            this.btnloithoat.Location = new System.Drawing.Point(719, 0);
             this.btnloithoat.Name = "btnloithoat";
             this.btnloithoat.Size = new System.Drawing.Size(72, 54);
             this.btnloithoat.TabIndex = 9;
@@ -275,7 +275,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label7.Location = new System.Drawing.Point(322, 47);
+            this.label7.Location = new System.Drawing.Point(322, 57);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(430, 34);
