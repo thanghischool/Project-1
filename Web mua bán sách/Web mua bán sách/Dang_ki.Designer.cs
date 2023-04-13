@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dang_ki));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -72,6 +72,14 @@
             this.panel1.Size = new System.Drawing.Size(300, 483);
             this.panel1.TabIndex = 1;
             // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(297, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(435, 483);
+            this.panel2.TabIndex = 2;
+            this.panel2.TabStop = true;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -82,14 +90,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.Location = new System.Drawing.Point(297, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(435, 483);
-            this.panel2.TabIndex = 2;
-            this.panel2.TabStop = true;
             // 
             // label1
             // 

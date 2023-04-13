@@ -16,11 +16,9 @@ namespace Web_mua_bán_sách
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
+
             Application.Run(new Dang_ki());
-=======
-            Application.Run(new Trang_chu());
->>>>>>> 0cd8bfda1f0c1c7f9f99d9b250d09f5398925d05
+
         }
     }
 }

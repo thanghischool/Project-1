@@ -70,7 +70,8 @@ namespace Web_mua_bán_sách
                 pnlconfirmpassword.Visible = true;
                 return;
             }
-            if (textBox1.Text == "Enter user name" && textBox2.Text == "Enter password" && textBox3.Text == " Enter confrim password")
+          else
+          if (textBox1.Text == "Enter user name" && textBox2.Text == "Enter password" && textBox3.Text == " Enter confrim password")
             {
                 pnlusername.Visible = true;
                 pnlpassword.Visible = true;
