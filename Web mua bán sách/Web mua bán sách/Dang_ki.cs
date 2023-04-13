@@ -60,19 +60,19 @@ namespace Web_mua_bán_sách
                 pnlusername.Visible = true;
                 return;
             }
-         if (textBox2.Text == "Enter password")
+        else if (textBox2.Text == "Enter password")
             {
                 pnlpassword.Visible = true;
                 return;
             }
-           if (textBox3.Text == " Enter confrim password")
+          else if (textBox3.Text == " Enter confrim password")
             {
                 pnlconfirmpassword.Visible = true;
                 return;
             }
-               if(textBox1.Text == "baotruong" && textBox2.Text == "gogo" && textBox3.Text == "gogo")
+           else  if(textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
             {
-                
+
                 Dang_nhap d = new Dang_nhap();
                 this.Hide();
                 d.ShowDialog();
