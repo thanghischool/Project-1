@@ -76,5 +76,13 @@ namespace Web_mua_bán_sách
             f.ShowDialog();
             this.Show();
         }
+
+        private void quảnLýThôngTinSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Quan_Ly_Thong_Tin_San_Pham a = new Quan_Ly_Thong_Tin_San_Pham();
+            this.Hide();
+            a.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -37,12 +37,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.tbt_Book_Name = new System.Windows.Forms.TextBox();
+            this.tbt_Author = new System.Windows.Forms.TextBox();
+            this.tbt_Price = new System.Windows.Forms.TextBox();
+            this.tbt_Image_Url = new System.Windows.Forms.TextBox();
+            this.tbt_Created_At = new System.Windows.Forms.TextBox();
+            this.tbt_Update_At = new System.Windows.Forms.TextBox();
+            this.btn_Add = new System.Windows.Forms.Button();
+            this.btn_Edit = new System.Windows.Forms.Button();
+            this.btn_Delete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -132,59 +135,90 @@
             this.textBox1.Size = new System.Drawing.Size(347, 20);
             this.textBox1.TabIndex = 4;
             // 
-            // textBox2
+            // tbt_Book_Name
             // 
-            this.textBox2.Location = new System.Drawing.Point(132, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(347, 20);
-            this.textBox2.TabIndex = 4;
+            this.tbt_Book_Name.Location = new System.Drawing.Point(132, 111);
+            this.tbt_Book_Name.Name = "tbt_Book_Name";
+            this.tbt_Book_Name.Size = new System.Drawing.Size(347, 20);
+            this.tbt_Book_Name.TabIndex = 4;
             // 
-            // textBox3
+            // tbt_Author
             // 
-            this.textBox3.Location = new System.Drawing.Point(132, 180);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(347, 20);
-            this.textBox3.TabIndex = 4;
+            this.tbt_Author.Location = new System.Drawing.Point(132, 180);
+            this.tbt_Author.Name = "tbt_Author";
+            this.tbt_Author.Size = new System.Drawing.Size(347, 20);
+            this.tbt_Author.TabIndex = 4;
             // 
-            // textBox4
+            // tbt_Price
             // 
-            this.textBox4.Location = new System.Drawing.Point(132, 255);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(347, 20);
-            this.textBox4.TabIndex = 4;
+            this.tbt_Price.Location = new System.Drawing.Point(132, 255);
+            this.tbt_Price.Name = "tbt_Price";
+            this.tbt_Price.Size = new System.Drawing.Size(347, 20);
+            this.tbt_Price.TabIndex = 4;
             // 
-            // textBox5
+            // tbt_Image_Url
             // 
-            this.textBox5.Location = new System.Drawing.Point(132, 332);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(347, 20);
-            this.textBox5.TabIndex = 4;
+            this.tbt_Image_Url.Location = new System.Drawing.Point(132, 332);
+            this.tbt_Image_Url.Name = "tbt_Image_Url";
+            this.tbt_Image_Url.Size = new System.Drawing.Size(347, 20);
+            this.tbt_Image_Url.TabIndex = 4;
             // 
-            // textBox6
+            // tbt_Created_At
             // 
-            this.textBox6.Location = new System.Drawing.Point(132, 403);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(347, 20);
-            this.textBox6.TabIndex = 4;
+            this.tbt_Created_At.Location = new System.Drawing.Point(132, 403);
+            this.tbt_Created_At.Name = "tbt_Created_At";
+            this.tbt_Created_At.Size = new System.Drawing.Size(347, 20);
+            this.tbt_Created_At.TabIndex = 4;
             // 
-            // textBox7
+            // tbt_Update_At
             // 
-            this.textBox7.Location = new System.Drawing.Point(132, 456);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(347, 20);
-            this.textBox7.TabIndex = 4;
+            this.tbt_Update_At.Location = new System.Drawing.Point(132, 456);
+            this.tbt_Update_At.Name = "tbt_Update_At";
+            this.tbt_Update_At.Size = new System.Drawing.Size(347, 20);
+            this.tbt_Update_At.TabIndex = 4;
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.Location = new System.Drawing.Point(581, 543);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(75, 23);
+            this.btn_Add.TabIndex = 5;
+            this.btn_Add.Text = "Add";
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
+            // 
+            // btn_Edit
+            // 
+            this.btn_Edit.Location = new System.Drawing.Point(734, 543);
+            this.btn_Edit.Name = "btn_Edit";
+            this.btn_Edit.Size = new System.Drawing.Size(75, 23);
+            this.btn_Edit.TabIndex = 5;
+            this.btn_Edit.Text = "Edit";
+            this.btn_Edit.UseVisualStyleBackColor = true;
+            // 
+            // btn_Delete
+            // 
+            this.btn_Delete.Location = new System.Drawing.Point(870, 543);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(75, 23);
+            this.btn_Delete.TabIndex = 5;
+            this.btn_Delete.Text = "Delete";
+            this.btn_Delete.UseVisualStyleBackColor = true;
             // 
             // Quan_Ly_Thong_Tin_San_Pham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1190, 648);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btn_Delete);
+            this.Controls.Add(this.btn_Edit);
+            this.Controls.Add(this.btn_Add);
+            this.Controls.Add(this.tbt_Update_At);
+            this.Controls.Add(this.tbt_Created_At);
+            this.Controls.Add(this.tbt_Image_Url);
+            this.Controls.Add(this.tbt_Price);
+            this.Controls.Add(this.tbt_Author);
+            this.Controls.Add(this.tbt_Book_Name);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -214,11 +248,14 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox tbt_Book_Name;
+        private System.Windows.Forms.TextBox tbt_Author;
+        private System.Windows.Forms.TextBox tbt_Price;
+        private System.Windows.Forms.TextBox tbt_Image_Url;
+        private System.Windows.Forms.TextBox tbt_Created_At;
+        private System.Windows.Forms.TextBox tbt_Update_At;
+        private System.Windows.Forms.Button btn_Add;
+        private System.Windows.Forms.Button btn_Edit;
+        private System.Windows.Forms.Button btn_Delete;
     }
 }
