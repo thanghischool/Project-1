@@ -56,18 +56,16 @@ namespace Web_mua_bán_sách
         private void btn_Add_Click(object sender, EventArgs e)
         {
                 conn.Open();
-                string query_insert = "insert into book (Book_Name, Author, Price, Image_Url, Created_At, Update_At) values (@Book_Name, @Author, @Price, @Image_Url, @Created_At, @Update_At)";
+                string query_insert = "insert into book (`Book_ID`, `Book_Name`, `Author`, `Price`, `Image_Url`, `Created_At`, `Update_At`) values ('" + tbt_Book_ID.Text + "', '" + tbt_Book_Name.Text + "', '" + tbt_Author.Text + "', '" + tbt_Price.Text + "', '" + tbt_Image_Url.Text + "', '" + tbt_Created_At.Text + "', '" + tbt_Update_At.Text + "')";
                 MySqlCommand command = new MySqlCommand(query_insert, conn);
-                command.Parameters.AddWithValue("@Book_Name", tbt_Book_Name.Text);
-                command.Parameters.AddWithValue("@Author", tbt_Author.Text);
-                command.Parameters.AddWithValue("@Price", tbt_Price.Text);
-                command.Parameters.AddWithValue("@Image_Url", tbt_Image_Url.Text);
-                command.Parameters.AddWithValue("@Created_At", tbt_Created_At.Text);
-                command.Parameters.AddWithValue("@Update_At", tbt_Update_At.Text);
+                command.ExecuteNonQuery();
                 conn.Close();
                 Read_Data();
         }
+            
+            
 
+                
         private void Read_Data()
         {
             conn.Open();
@@ -79,8 +77,50 @@ namespace Web_mua_bán_sách
             dataGridView1.DataSource = mytable;
         }
 
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            conn.Open();
+            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+            tbt_Book_ID.Text = row.Cells["Book_ID"].Value.ToString();
+            tbt_Book_Name.Text = row.Cells["Book_Name"].Value.ToString();
+            tbt_Author.Text = row.Cells["Author"].Value.ToString();
+            tbt_Price.Text = row.Cells["Price"].Value.ToString();
+            tbt_Image_Url.Text = row.Cells["Image_Url"].Value.ToString();
+            tbt_Created_At.Text = row.Cells["Created_At"].Value.ToString();
+            tbt_Update_At.Text = row.Cells["Update_At"].Value.ToString();
+            conn.Close();
+        }
+
+        private void btn_Edit_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            int rowIndex = dataGridView1.SelectedCells[0].RowIndex;
+            DataGridViewRow newDataRow = dataGridView1.Rows[rowIndex];
+            newDataRow.Cells["Book_ID"].Value = tbt_Book_ID.Text;
+            newDataRow.Cells["Book_Name"].Value = tbt_Book_Name.Text;
+            newDataRow.Cells["Author"].Value = tbt_Author.Text;
+            newDataRow.Cells["Price"].Value = tbt_Price.Text;
+            newDataRow.Cells["Image_Url"].Value = tbt_Image_Url.Text;
+            newDataRow.Cells["Created_At"].Value = tbt_Created_At.Text;
+            newDataRow.Cells["Update_At"].Value = tbt_Update_At.Text;
+            conn.Close();
+        }
+
+        private void btn_Delete_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string query_delete = "DELETE from book where Book_ID = '" + int.Parse(tbt_Book_ID.Text) + "'";
+            MySqlCommand command = new MySqlCommand(query_delete, conn);
+            command.ExecuteNonQuery();
+            conn.Close();
+            Read_Data();
+        }
     }
 }
+
+
+
+
             
             
 

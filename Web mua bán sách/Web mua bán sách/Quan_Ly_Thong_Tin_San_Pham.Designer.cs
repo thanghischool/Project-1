@@ -36,7 +36,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbt_Book_ID = new System.Windows.Forms.TextBox();
             this.tbt_Book_Name = new System.Windows.Forms.TextBox();
             this.tbt_Author = new System.Windows.Forms.TextBox();
             this.tbt_Price = new System.Windows.Forms.TextBox();
@@ -56,6 +56,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(686, 512);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label1
@@ -128,12 +129,12 @@
             this.label7.TabIndex = 3;
             this.label7.Text = "Update_At";
             // 
-            // textBox1
+            // tbt_Book_ID
             // 
-            this.textBox1.Location = new System.Drawing.Point(132, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(347, 20);
-            this.textBox1.TabIndex = 4;
+            this.tbt_Book_ID.Location = new System.Drawing.Point(132, 38);
+            this.tbt_Book_ID.Name = "tbt_Book_ID";
+            this.tbt_Book_ID.Size = new System.Drawing.Size(347, 20);
+            this.tbt_Book_ID.TabIndex = 4;
             // 
             // tbt_Book_Name
             // 
@@ -179,31 +180,40 @@
             // 
             // btn_Add
             // 
+            this.btn_Add.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_Add.ForeColor = System.Drawing.Color.Red;
             this.btn_Add.Location = new System.Drawing.Point(581, 543);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(75, 23);
             this.btn_Add.TabIndex = 5;
+            this.btn_Add.TabStop = false;
             this.btn_Add.Text = "Add";
-            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.UseVisualStyleBackColor = false;
             this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // btn_Edit
             // 
+            this.btn_Edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_Edit.ForeColor = System.Drawing.Color.Black;
             this.btn_Edit.Location = new System.Drawing.Point(734, 543);
             this.btn_Edit.Name = "btn_Edit";
             this.btn_Edit.Size = new System.Drawing.Size(75, 23);
             this.btn_Edit.TabIndex = 5;
             this.btn_Edit.Text = "Edit";
-            this.btn_Edit.UseVisualStyleBackColor = true;
+            this.btn_Edit.UseVisualStyleBackColor = false;
+            this.btn_Edit.Click += new System.EventHandler(this.btn_Edit_Click);
             // 
             // btn_Delete
             // 
+            this.btn_Delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_Delete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btn_Delete.Location = new System.Drawing.Point(870, 543);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(75, 23);
             this.btn_Delete.TabIndex = 5;
             this.btn_Delete.Text = "Delete";
-            this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.UseVisualStyleBackColor = false;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // Quan_Ly_Thong_Tin_San_Pham
             // 
@@ -219,7 +229,7 @@
             this.Controls.Add(this.tbt_Price);
             this.Controls.Add(this.tbt_Author);
             this.Controls.Add(this.tbt_Book_Name);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbt_Book_ID);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -228,6 +238,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Name = "Quan_Ly_Thong_Tin_San_Pham";
             this.Text = "Quan_Ly_Thong_Tin_San_Pham";
             this.Load += new System.EventHandler(this.Quan_Ly_Thong_Tin_San_Pham_Load);
@@ -247,7 +258,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbt_Book_ID;
         private System.Windows.Forms.TextBox tbt_Book_Name;
         private System.Windows.Forms.TextBox tbt_Author;
         private System.Windows.Forms.TextBox tbt_Price;
