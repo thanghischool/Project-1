@@ -74,12 +74,13 @@
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(223, 0);
+            this.panel2.Location = new System.Drawing.Point(167, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(326, 392);
             this.panel2.TabIndex = 2;
             this.panel2.TabStop = true;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // pictureBox1
             // 
@@ -90,12 +91,13 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label1.Location = new System.Drawing.Point(20, 5);
+            this.label1.Location = new System.Drawing.Point(8, 4);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
@@ -105,7 +107,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(94, 5);
+            this.textBox1.Location = new System.Drawing.Point(70, 4);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(243, 20);
@@ -117,16 +119,17 @@
             this.panel3.Controls.Add(this.pnlusername);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Location = new System.Drawing.Point(227, 96);
+            this.panel3.Location = new System.Drawing.Point(227, 75);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(357, 60);
             this.panel3.TabIndex = 4;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // pnlusername
             // 
             this.pnlusername.Controls.Add(this.label4);
-            this.pnlusername.Location = new System.Drawing.Point(97, 28);
+            this.pnlusername.Location = new System.Drawing.Point(73, 23);
             this.pnlusername.Margin = new System.Windows.Forms.Padding(2);
             this.pnlusername.Name = "pnlusername";
             this.pnlusername.Size = new System.Drawing.Size(242, 30);
@@ -150,7 +153,7 @@
             this.panel4.Controls.Add(this.pnlpassword);
             this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.textBox2);
-            this.panel4.Location = new System.Drawing.Point(227, 169);
+            this.panel4.Location = new System.Drawing.Point(227, 136);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(357, 61);
@@ -159,7 +162,7 @@
             // pnlpassword
             // 
             this.pnlpassword.Controls.Add(this.label2);
-            this.pnlpassword.Location = new System.Drawing.Point(94, 28);
+            this.pnlpassword.Location = new System.Drawing.Point(70, 23);
             this.pnlpassword.Margin = new System.Windows.Forms.Padding(2);
             this.pnlpassword.Name = "pnlpassword";
             this.pnlpassword.Size = new System.Drawing.Size(242, 30);
@@ -182,7 +185,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label3.Location = new System.Drawing.Point(20, 7);
+            this.label3.Location = new System.Drawing.Point(8, 5);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
@@ -191,7 +194,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(94, 2);
+            this.textBox2.Location = new System.Drawing.Point(70, 2);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(243, 20);
@@ -203,7 +206,7 @@
             this.panel7.Controls.Add(this.pnlconfirmpassword);
             this.panel7.Controls.Add(this.label6);
             this.panel7.Controls.Add(this.textBox3);
-            this.panel7.Location = new System.Drawing.Point(227, 247);
+            this.panel7.Location = new System.Drawing.Point(225, 201);
             this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(357, 61);
@@ -212,7 +215,7 @@
             // pnlconfirmpassword
             // 
             this.pnlconfirmpassword.Controls.Add(this.label5);
-            this.pnlconfirmpassword.Location = new System.Drawing.Point(94, 31);
+            this.pnlconfirmpassword.Location = new System.Drawing.Point(70, 25);
             this.pnlconfirmpassword.Margin = new System.Windows.Forms.Padding(2);
             this.pnlconfirmpassword.Name = "pnlconfirmpassword";
             this.pnlconfirmpassword.Size = new System.Drawing.Size(242, 30);
@@ -235,17 +238,17 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label6.Location = new System.Drawing.Point(2, 7);
+            this.label6.Location = new System.Drawing.Point(10, 11);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 13);
+            this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 2;
-            this.label6.Text = "Confirm password ";
+            this.label6.Text = "Confirm ";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(94, 5);
+            this.textBox3.Location = new System.Drawing.Point(70, 4);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(243, 20);

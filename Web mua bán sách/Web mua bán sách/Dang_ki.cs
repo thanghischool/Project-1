@@ -126,5 +126,20 @@ namespace Web_mua_bán_sách
             else if (bb == DialogResult.No)
                 MessageBox.Show("bạn tiếp tục sử dụng ", "confirm", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

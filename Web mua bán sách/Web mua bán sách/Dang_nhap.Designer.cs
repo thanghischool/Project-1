@@ -44,7 +44,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnthoat = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -82,7 +84,9 @@
             // 
             this.panel2.AutoSize = true;
             this.panel2.BackColor = System.Drawing.SystemColors.Control;
+
             this.panel2.Controls.Add(this.pictureBox4);
+
             this.panel2.Controls.Add(this.btnloinho);
             this.panel2.Controls.Add(this.btnquenmk1);
             this.panel2.Controls.Add(this.btndangnhap1);
@@ -161,6 +165,7 @@
             // 
             // tbt_Password
             // 
+
             this.tbt_Password.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbt_Password.Location = new System.Drawing.Point(49, 15);
             this.tbt_Password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -169,6 +174,7 @@
             this.tbt_Password.TabIndex = 6;
             this.tbt_Password.UseSystemPasswordChar = true;
             this.tbt_Password.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+
             // 
             // pictureBox3
             // 
@@ -239,6 +245,7 @@
             this.btnthoat.UseVisualStyleBackColor = true;
             this.btnthoat.Click += new System.EventHandler(this.btnthoat_Click);
             // 
+
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -249,6 +256,7 @@
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+
             // 
             // Dang_nhap
             // 
@@ -297,6 +305,8 @@
         private System.Windows.Forms.Button btndangnhap1;
         private System.Windows.Forms.Button btnquenmk1;
         private System.Windows.Forms.Button btnloinho;
+
         private System.Windows.Forms.PictureBox pictureBox4;
+
     }
 }
