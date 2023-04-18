@@ -85,7 +85,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(296, 482);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -257,7 +257,7 @@
             this.btndangnhap1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndangnhap1.ForeColor = System.Drawing.Color.White;
             this.btndangnhap1.Location = new System.Drawing.Point(328, 404);
-            this.btndangnhap1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btndangnhap1.Margin = new System.Windows.Forms.Padding(4);
             this.btndangnhap1.Name = "btndangnhap1";
             this.btndangnhap1.Size = new System.Drawing.Size(185, 44);
             this.btndangnhap1.TabIndex = 8;

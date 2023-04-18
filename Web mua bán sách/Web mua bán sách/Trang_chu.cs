@@ -85,5 +85,14 @@ namespace Web_mua_bán_sách
             a.ShowDialog();
             this.Show();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            thong_tin_san_pham tt = new thong_tin_san_pham();
+            this.Hide();
+            tt.ShowDialog();
+            this.Show();
+
+        }
     }
 }

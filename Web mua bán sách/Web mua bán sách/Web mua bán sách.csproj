@@ -76,6 +76,12 @@
     <Compile Include="Sach_Tieu_Thuyet.Designer.cs">
       <DependentUpon>Sach_Tieu_Thuyet.cs</DependentUpon>
     </Compile>
+    <Compile Include="thong_tin_san_pham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thong_tin_san_pham.Designer.cs">
+      <DependentUpon>thong_tin_san_pham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Trang_chu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="thong_tin_san_pham.resx">
+      <DependentUpon>thong_tin_san_pham.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Trang_chu.resx">
       <DependentUpon>Trang_chu.cs</DependentUpon>
     </EmbeddedResource>
