@@ -69,14 +69,15 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 483);
+            this.panel1.Size = new System.Drawing.Size(300, 482);
             this.panel1.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.Location = new System.Drawing.Point(297, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(435, 483);
+            this.panel2.Size = new System.Drawing.Size(435, 482);
             this.panel2.TabIndex = 2;
             this.panel2.TabStop = true;
             // 
@@ -84,7 +85,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(296, 482);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -95,7 +96,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label1.Location = new System.Drawing.Point(26, 6);
+            this.label1.Location = new System.Drawing.Point(27, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 16);
             this.label1.TabIndex = 2;
@@ -104,7 +105,8 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(126, 6);
+            this.textBox1.Location = new System.Drawing.Point(125, 6);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(323, 22);
             this.textBox1.TabIndex = 3;
@@ -116,6 +118,7 @@
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Location = new System.Drawing.Point(303, 118);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(476, 74);
             this.panel3.TabIndex = 4;
@@ -124,6 +127,7 @@
             // 
             this.pnlusername.Controls.Add(this.label4);
             this.pnlusername.Location = new System.Drawing.Point(129, 34);
+            this.pnlusername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlusername.Name = "pnlusername";
             this.pnlusername.Size = new System.Drawing.Size(323, 37);
             this.pnlusername.TabIndex = 6;
@@ -146,6 +150,7 @@
             this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.textBox2);
             this.panel4.Location = new System.Drawing.Point(303, 208);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(476, 75);
             this.panel4.TabIndex = 7;
@@ -153,7 +158,8 @@
             // pnlpassword
             // 
             this.pnlpassword.Controls.Add(this.label2);
-            this.pnlpassword.Location = new System.Drawing.Point(126, 35);
+            this.pnlpassword.Location = new System.Drawing.Point(125, 34);
+            this.pnlpassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlpassword.Name = "pnlpassword";
             this.pnlpassword.Size = new System.Drawing.Size(323, 37);
             this.pnlpassword.TabIndex = 6;
@@ -174,7 +180,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label3.Location = new System.Drawing.Point(26, 9);
+            this.label3.Location = new System.Drawing.Point(27, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 16);
             this.label3.TabIndex = 2;
@@ -182,7 +188,8 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(126, 3);
+            this.textBox2.Location = new System.Drawing.Point(125, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(323, 22);
             this.textBox2.TabIndex = 3;
@@ -194,6 +201,7 @@
             this.panel7.Controls.Add(this.label6);
             this.panel7.Controls.Add(this.textBox3);
             this.panel7.Location = new System.Drawing.Point(303, 304);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(476, 75);
             this.panel7.TabIndex = 7;
@@ -201,7 +209,8 @@
             // pnlconfirmpassword
             // 
             this.pnlconfirmpassword.Controls.Add(this.label5);
-            this.pnlconfirmpassword.Location = new System.Drawing.Point(126, 38);
+            this.pnlconfirmpassword.Location = new System.Drawing.Point(125, 38);
+            this.pnlconfirmpassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlconfirmpassword.Name = "pnlconfirmpassword";
             this.pnlconfirmpassword.Size = new System.Drawing.Size(323, 37);
             this.pnlconfirmpassword.TabIndex = 6;
@@ -231,7 +240,8 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(126, 6);
+            this.textBox3.Location = new System.Drawing.Point(125, 6);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(323, 22);
             this.textBox3.TabIndex = 3;
@@ -247,7 +257,7 @@
             this.btndangnhap1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndangnhap1.ForeColor = System.Drawing.Color.White;
             this.btndangnhap1.Location = new System.Drawing.Point(328, 404);
-            this.btndangnhap1.Margin = new System.Windows.Forms.Padding(4);
+            this.btndangnhap1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btndangnhap1.Name = "btndangnhap1";
             this.btndangnhap1.Size = new System.Drawing.Size(185, 44);
             this.btndangnhap1.TabIndex = 8;
@@ -263,6 +273,7 @@
             this.btnloithoat.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnloithoat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.btnloithoat.Location = new System.Drawing.Point(719, 0);
+            this.btnloithoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnloithoat.Name = "btnloithoat";
             this.btnloithoat.Size = new System.Drawing.Size(72, 54);
             this.btnloithoat.TabIndex = 9;
@@ -275,7 +286,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label7.Location = new System.Drawing.Point(322, 57);
+            this.label7.Location = new System.Drawing.Point(323, 57);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(430, 34);
@@ -286,7 +297,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 483);
+            this.ClientSize = new System.Drawing.Size(791, 482);
             this.ControlBox = false;
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnloithoat);
@@ -296,6 +307,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Dang_ki";
             this.Text = "Dang_ki";
             this.panel1.ResumeLayout(false);

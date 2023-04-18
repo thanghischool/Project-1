@@ -54,7 +54,10 @@ namespace Web_mua_bán_sách
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Dang_ki d = new Dang_ki();
+            this.Hide();
+            d.ShowDialog();
+            this.Show();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -121,6 +124,17 @@ namespace Web_mua_bán_sách
             }
             else if (bb == DialogResult.No)
                 MessageBox.Show("bạn tiếp tục sử dụng ","confirm",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            DialogResult gg = MessageBox.Show(" bạn có chắc chắn muốn thoát ?", "confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+            if (gg == DialogResult.Yes)
+            {
+                Close();
+            }
+            else if (gg == DialogResult.No)
+                MessageBox.Show("bạn tiếp tục sử dụng ", "confirm", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }

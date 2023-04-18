@@ -36,3 +36,14 @@ C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_b�
 C:\project1\Project-1\Web mua bán sách\Web mua bán sách\bin\Debug\MySql.Data.dll
 C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.csproj.CopyComplete
 C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Dang_ki.resources
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\Google.Protobuf.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\ZstdNet.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\BouncyCastle.Crypto.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\Ubiety.Dns.Core.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\System.Buffers.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\K4os.Compression.LZ4.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\K4os.Hash.xxHash.dll
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\bin\Debug\MySql.Data.xml
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua bán sách.exe.config
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Dang_ki.resources
