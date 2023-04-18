@@ -85,5 +85,13 @@ namespace Web_mua_bán_sách
             a.ShowDialog();
             this.Show();
         }
+
+        private void mns_Dang_Xuat_Click(object sender, EventArgs e)
+        {
+            Dang_ki k = new Dang_ki();
+            this.Hide();
+            k.ShowDialog();
+            this.Show();
+        }
     }
 }

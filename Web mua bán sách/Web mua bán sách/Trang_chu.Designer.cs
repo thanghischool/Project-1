@@ -164,15 +164,16 @@
             // mns_Dang_Nhap
             // 
             this.mns_Dang_Nhap.Name = "mns_Dang_Nhap";
-            this.mns_Dang_Nhap.Size = new System.Drawing.Size(134, 22);
+            this.mns_Dang_Nhap.Size = new System.Drawing.Size(180, 22);
             this.mns_Dang_Nhap.Text = "Đăng Nhập";
             this.mns_Dang_Nhap.Click += new System.EventHandler(this.mns_Dang_Nhap_Click);
             // 
             // mns_Dang_Xuat
             // 
             this.mns_Dang_Xuat.Name = "mns_Dang_Xuat";
-            this.mns_Dang_Xuat.Size = new System.Drawing.Size(134, 22);
-            this.mns_Dang_Xuat.Text = "Đăng Xuất";
+            this.mns_Dang_Xuat.Size = new System.Drawing.Size(180, 22);
+            this.mns_Dang_Xuat.Text = "Đăng Kí";
+            this.mns_Dang_Xuat.Click += new System.EventHandler(this.mns_Dang_Xuat_Click);
             // 
             // thoátChươngTrìnhToolStripMenuItem
             // 

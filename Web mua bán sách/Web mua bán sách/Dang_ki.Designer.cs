@@ -67,7 +67,7 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(225, 392);
             this.panel1.TabIndex = 1;
@@ -75,7 +75,7 @@
             // panel2
             // 
             this.panel2.Location = new System.Drawing.Point(223, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(326, 392);
             this.panel2.TabIndex = 2;
@@ -106,7 +106,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(94, 5);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(243, 20);
             this.textBox1.TabIndex = 3;
@@ -118,7 +118,7 @@
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Location = new System.Drawing.Point(227, 96);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(357, 60);
             this.panel3.TabIndex = 4;
@@ -127,7 +127,7 @@
             // 
             this.pnlusername.Controls.Add(this.label4);
             this.pnlusername.Location = new System.Drawing.Point(97, 28);
-            this.pnlusername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlusername.Margin = new System.Windows.Forms.Padding(2);
             this.pnlusername.Name = "pnlusername";
             this.pnlusername.Size = new System.Drawing.Size(242, 30);
             this.pnlusername.TabIndex = 6;
@@ -151,7 +151,7 @@
             this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.textBox2);
             this.panel4.Location = new System.Drawing.Point(227, 169);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(357, 61);
             this.panel4.TabIndex = 7;
@@ -160,7 +160,7 @@
             // 
             this.pnlpassword.Controls.Add(this.label2);
             this.pnlpassword.Location = new System.Drawing.Point(94, 28);
-            this.pnlpassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlpassword.Margin = new System.Windows.Forms.Padding(2);
             this.pnlpassword.Name = "pnlpassword";
             this.pnlpassword.Size = new System.Drawing.Size(242, 30);
             this.pnlpassword.TabIndex = 6;
@@ -192,7 +192,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(94, 2);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(243, 20);
             this.textBox2.TabIndex = 3;
@@ -204,7 +204,7 @@
             this.panel7.Controls.Add(this.label6);
             this.panel7.Controls.Add(this.textBox3);
             this.panel7.Location = new System.Drawing.Point(227, 247);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(357, 61);
             this.panel7.TabIndex = 7;
@@ -213,7 +213,7 @@
             // 
             this.pnlconfirmpassword.Controls.Add(this.label5);
             this.pnlconfirmpassword.Location = new System.Drawing.Point(94, 31);
-            this.pnlconfirmpassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlconfirmpassword.Margin = new System.Windows.Forms.Padding(2);
             this.pnlconfirmpassword.Name = "pnlconfirmpassword";
             this.pnlconfirmpassword.Size = new System.Drawing.Size(242, 30);
             this.pnlconfirmpassword.TabIndex = 6;
@@ -246,7 +246,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(94, 5);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(243, 20);
             this.textBox3.TabIndex = 3;
@@ -277,7 +277,7 @@
             this.btnloithoat.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnloithoat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.btnloithoat.Location = new System.Drawing.Point(539, 0);
-            this.btnloithoat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnloithoat.Margin = new System.Windows.Forms.Padding(2);
             this.btnloithoat.Name = "btnloithoat";
             this.btnloithoat.Size = new System.Drawing.Size(54, 44);
             this.btnloithoat.TabIndex = 9;
@@ -310,8 +310,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Dang_ki";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dang_ki";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

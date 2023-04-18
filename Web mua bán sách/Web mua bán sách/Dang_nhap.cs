@@ -49,8 +49,13 @@ namespace Web_mua_bán_sách
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            if(tbt_Tai_Khoan != null && tbt_Password != null)
+            {
+               MessageBox.Show("Bạn đã đăng nhập thành công", "Sucessful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Close();
+            }
         }
+                
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -64,12 +69,12 @@ namespace Web_mua_bán_sách
 
         private void pictureBox3_Click(object sender, MouseEventArgs e)
         {
-            textBox2.UseSystemPasswordChar = false;
+            tbt_Password.UseSystemPasswordChar = false;
         }
 
         private void pictureBox3_mouseup(object sender, MouseEventArgs e)
         {
-            textBox2.UseSystemPasswordChar = true;
+            tbt_Password.UseSystemPasswordChar = true;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -121,6 +126,15 @@ namespace Web_mua_bán_sách
             }
             else if (bb == DialogResult.No)
                 MessageBox.Show("bạn tiếp tục sử dụng ","confirm",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát", "Close", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes) 
+            { 
+                Close();
+            } 
         }
     }
 }
