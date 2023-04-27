@@ -41,6 +41,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -75,6 +76,12 @@
     </Compile>
     <Compile Include="Sach_Tieu_Thuyet.Designer.cs">
       <DependentUpon>Sach_Tieu_Thuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thao_Tac_Bang_Giong_Noi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thao_Tac_Bang_Giong_Noi.Designer.cs">
+      <DependentUpon>Thao_Tac_Bang_Giong_Noi.cs</DependentUpon>
     </Compile>
     <Compile Include="thong_tin_san_pham.cs">
       <SubType>Form</SubType>
@@ -111,6 +118,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Thao_Tac_Bang_Giong_Noi.resx">
+      <DependentUpon>Thao_Tac_Bang_Giong_Noi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="thong_tin_san_pham.resx">
       <DependentUpon>thong_tin_san_pham.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DefaultCommands.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -49,3 +49,6 @@ D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web mua 
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Dang_ki.resources
 C:\project1\Project-1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.thong_tin_san_pham.resources
 D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.thong_tin_san_pham.resources
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Tìm_Kiếm_Bằng_Giọng_Nói.resources
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Tim_Kiem_Bang_Giong_Noi.resources
+D:\project_IT\Project 1\Web mua bán sách\Web mua bán sách\obj\Debug\Web_mua_bán_sách.Thao_Tac_Bang_Giong_Noi.resources

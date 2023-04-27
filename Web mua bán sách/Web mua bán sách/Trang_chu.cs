@@ -93,5 +93,21 @@ namespace Web_mua_bán_sách
             k.ShowDialog();
             this.Show();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            thong_tin_san_pham t = new thong_tin_san_pham();
+            this.Hide();
+            t.ShowDialog();
+            this.Show();
+        }
+
+        private void mns_Tro_Ly_Ao_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Thao_Tac_Bang_Giong_Noi t = new Thao_Tac_Bang_Giong_Noi();
+            t.Show();
+            
+        }
     }
 }

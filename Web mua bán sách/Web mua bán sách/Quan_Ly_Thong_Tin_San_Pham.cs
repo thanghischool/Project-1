@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Relational;
 
 namespace Web_mua_bán_sách
 {
@@ -32,6 +33,7 @@ namespace Web_mua_bán_sách
 
         private void Quan_Ly_Thong_Tin_San_Pham_Load(object sender, EventArgs e)
         {
+            searchData("");
             try
             {
                 conn = new MySqlConnection(strconn);
@@ -49,11 +51,20 @@ namespace Web_mua_bán_sách
             }
         }
 
-        
 
-        
+        public void searchData(string valueToSearch)
+        {
+            string query = "SELECT * FROM book WHERE CONCAT(`Book_ID`, `Book_Name`, `Author`, `Price`, `Image_Url`, `Created_At`, `Update_At`) like '%" + valueToSearch + "%'";
+            adapter = new MySqlDataAdapter(query, strconn);
+            cmd = new MySqlCommandBuilder(adapter);
+            mytable = new DataTable();
+            adapter.Fill(mytable);
 
-        private void btn_Add_Click(object sender, EventArgs e)
+            dataGridView1.DataSource = mytable;
+        }
+
+
+            private void btn_Add_Click(object sender, EventArgs e)
         {
                 conn.Open();
                 string query_insert = "insert into book (`Book_ID`, `Book_Name`, `Author`, `Price`, `Image_Url`, `Created_At`, `Update_At`) values ('" + tbt_Book_ID.Text + "', '" + tbt_Book_Name.Text + "', '" + tbt_Author.Text + "', '" + tbt_Price.Text + "', '" + tbt_Image_Url.Text + "', '" + tbt_Created_At.Text + "', '" + tbt_Update_At.Text + "')";
@@ -114,6 +125,17 @@ namespace Web_mua_bán_sách
             command.ExecuteNonQuery();
             conn.Close();
             Read_Data();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string valueToSearch = textBoxValueToSearch.Text.ToString();
+            searchData(valueToSearch);
         }
     }
 }
